@@ -66,7 +66,7 @@ def tree_1(n):
         roots_x = r.randint(300, 350)
         roots_y = r.randint(275, 375)
         rect(screen, (139, 71, 80), (roots_x, roots_y, width, height))
-        leaves = r.randint(7, 10)
+        leaves = r.randint(15, 25)
         for k in range(leaves):
             circle(screen, (0, r.randint(150, 175), 0), (roots_x + r.randint(-30, 30), roots_y + r.randint(-30, 30)), r.randint(45, 55))
             k += 1
@@ -79,7 +79,7 @@ def tree_2(n):
         roots_x = r.randint(700, 800)
         roots_y = r.randint(275, 375)
         rect(screen, (139, 71, 80), (roots_x, roots_y, width, height))
-        leaves = r.randint(3, 5)
+        leaves = r.randint(15, 25)
         for k in range(leaves):
             circle(screen, (0, r.randint(150, 175), 0), (roots_x + r.randint(-30, 30), roots_y + r.randint(-30, 30)), r.randint(45, 55))
             k += 1
